@@ -5,7 +5,7 @@
       <li><div class="left-bg"></div></li>
       <li class="time">
         <h1 class="animated fadeInLeft"><?= date('H') ?>:<?= date('i') ?></h1>
-        <p class="animated fadeInRight">Sat,October 1st 2029</p>
+        <p class="animated fadeInRight"><?= get_date() ?></p>
       </li>
       <li class="active ripple">
         <a href="<?= base_url('/') ?>" 
